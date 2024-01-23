@@ -1,0 +1,111 @@
+<web-app>
+  <servlet>
+    <servlet-name>getJeu</servlet-name>
+    <servlet-class>servlet.GetJeu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getJeu</servlet-name>
+    <url-pattern>/jeux</url-pattern>    
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getTheme</servlet-name>
+    <servlet-class>servlet.GetTheme</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getTheme</servlet-name>
+    <url-pattern>/themes</url-pattern>    
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getJeuTheme</servlet-name>
+    <servlet-class>servlet.GetJeuTheme</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getJeuTheme</servlet-name>
+    <url-pattern>/jeuxthemes</url-pattern>    
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getJeuByTheme</servlet-name>
+    <servlet-class>servlet.GetJeuByTheme</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getJeuByTheme</servlet-name>
+    <url-pattern>/jeuByTheme</url-pattern>    
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getJeuByNbJoueurs</servlet-name>
+    <servlet-class>servlet.GetJeuByNbJoueurs</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getJeuByNbJoueurs</servlet-name>
+    <url-pattern>/jeuByNbJoueurs</url-pattern>    
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>creerJeu</servlet-name>
+    <servlet-class>servlet.CreerJeu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>creerJeu</servlet-name>
+    <url-pattern>/creerJeu</url-pattern>    
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>creerTheme</servlet-name>
+    <servlet-class>servlet.CreerTheme</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>creerTheme</servlet-name>
+    <url-pattern>/creerTheme</url-pattern> 
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getJeuByNbJoueurs</servlet-name>
+    <servlet-class>servlet.GetJeuByNbJoueurs</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getJeuByNbJoueurs</servlet-name>
+    <url-pattern>/recherche</url-pattern>    
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getRechercheTheme</servlet-name>
+    <servlet-class>servlet.GetRechercheTheme</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getRechercheTheme</servlet-name>
+    <url-pattern>/recherche_theme</url-pattern>    
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getJeuByTheme</servlet-name>
+    <servlet-class>servlet.GetJeuByTheme</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getJeuByTheme</servlet-name>
+    <url-pattern>/rechercheT</url-pattern>    
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getAssociation</servlet-name>
+    <servlet-class>servlet.GetAssociation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getAssociation</servlet-name>
+    <url-pattern>/association</url-pattern>    
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>association</servlet-name>
+    <servlet-class>servlet.Association</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>association</servlet-name>
+    <url-pattern>/assoJeuTheme</url-pattern>    
+  </servlet-mapping>
+</web-app>
+
+
